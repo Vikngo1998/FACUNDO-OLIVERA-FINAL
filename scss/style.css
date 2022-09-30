@@ -16,7 +16,6 @@ body {
 
 h1 {
   font-size: 3rem;
-  
 }
 
 h2 {
@@ -44,7 +43,7 @@ a {
   margin: auto;
   max-width: 1300px;
   overflow: auto;
-  padding: 40px;
+  padding: 0 20px;
 }
 
 .large {
@@ -93,7 +92,9 @@ form .form-control {
 }
 
 /* Mainheader */
-
+#mainheader {
+  height: 100vh;
+}
 #mainheader h1 {
   font-weight: 700;
   line-height: 1.2em;
@@ -152,7 +153,7 @@ form .form-control {
 
 /* Services */
 #services {
-  padding:0;
+  padding: 80px 0;
 }
 #services h2,
 #services p.large {
@@ -180,7 +181,7 @@ form .form-control {
 
 /* Contact */
 #contact {
-  padding: 0;
+  padding: 80px 0;
 }
 #contact h2,
 #contact p.large {
@@ -198,21 +199,11 @@ form .form-control {
   width: 100%;
 }
 
-/* Footer */
-#mainfooter {
-  background: #0E4E90;
-  text-align: center;
-  padding: 30px;
-}
-
 @media (max-width: 700px) {
   /* Mainheader */
   #mainheader {
     height: 100%;
   }
-
-  
-
   /* Navbar */
   #navbar {
     padding-top: 10px;
@@ -229,7 +220,6 @@ form .form-control {
     float: none;
     padding-left: 50px;
   }
-
   /* Showcase */
   #showcase {
     padding: 20px 0;
@@ -248,7 +238,6 @@ form .form-control {
   #showcase .showcase-row-img img {
     width: 100%;
   }
-
   /* Services */
   #services {
     padding: 40px 0;
@@ -264,7 +253,6 @@ form .form-control {
   #services .services-row-box {
     padding: 10px;
   }
-
   /* Contact */
   #contact {
     padding: 40px 0;
@@ -277,6 +265,4 @@ form .form-control {
     padding-top: 30px;
     width: 100%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
